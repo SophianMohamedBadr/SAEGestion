@@ -64,6 +64,47 @@
     margin: 0.5rem 0; /* Ajoute un espacement vertical */
   }
 
+  /* Écrans très petits (max 465px) */
+@media (max-width: 465px) {
+  .logo {
+    font-size: 1.2rem; /* Réduit encore la taille du logo */
+  }
+
+  .hero {
+    padding: 3rem 1rem; /* Ajuste le padding de la section héro */
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem; /* Réduit la taille du titre pour les petits écrans */
+  }
+
+  .event-card {
+    width: 100%; /* Assurez-vous que les cartes d'événements remplissent l'espace */
+  }
+
+  .btn {
+    width: 100%; /* Les boutons occupent toute la largeur */
+    padding: 0.5rem; /* Ajuste le padding des boutons */
+    margin: 0.5rem 0; /* Ajoute un espacement vertical */
+  }
+
+  .btn-secondary {
+    width: 100%; /* Assurez-vous que le bouton secondaire remplit également l'espace */
+  }
+
+  .benefits ul {
+    font-size: 0.9rem; /* Réduit la taille de la police des bénéfices */
+  }
+
+  .testimonials h3 {
+    font-size: 1.5rem; /* Réduit la taille du titre des témoignages */
+  }
+
+  blockquote {
+    font-size: 0.9rem; /* Réduit la taille de la citation pour les petits écrans */
+  }
+}
+
   .btn-secondary {
     width: 100%; /* Correction du sélecteur */
   }
