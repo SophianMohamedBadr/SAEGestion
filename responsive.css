@@ -1,0 +1,42 @@
+/* --- Responsive Styles --- */
+
+/* Tablettes et petits écrans (max 992px) */
+@media (max-width: 992px) {
+    .hero-content h2 {
+      font-size: 2rem; /* Réduit la taille du titre */
+    }
+  
+    .event-card {
+      width: 45%; /* Change la largeur des cartes d'événements */
+    }
+  }
+  
+  /* Mobiles (max 768px) */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column; /* Change la direction de la navigation */
+    }
+  
+    .hero-content h2 {
+      font-size: 1.6rem; /* Réduit la taille du titre */
+    }
+  
+    .event-card {
+      width: 100%; /* Change la largeur des cartes d'événements */
+    }
+  }
+  
+  /* Très petits écrans (max 480px) */
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.4rem; /* Réduit la taille du logo */
+    }
+  
+    .hero {
+      padding: 4rem 1rem; /* Ajuste le padding de la section héro */
+    }
+  
+    .hero-content h2 {
+      font-size: 1.4rem; /* Réduit encore la taille du titre */
+    }
+  }
