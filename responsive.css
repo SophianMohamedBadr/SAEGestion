@@ -11,8 +11,8 @@
   }
 
   .btn {
-    width: 100%; /* Assurez-vous que les boutons remplissent l'espace */
-    margin: 0.5rem 0; /* Ajoute une marge verticale */
+    width: 100%; /* Les boutons occupent toute la largeur */
+    margin: 0.5rem 0; /* Ajoute un espacement vertical */
   }
 
   .btn-secondary {
@@ -36,8 +36,8 @@
   }
 
   .btn {
-    width: 100%; /* Assurez-vous que les boutons remplissent l'espace */
-    margin: 0.5rem 0; /* Ajoute une marge verticale */
+    width: 100%; /* Les boutons occupent toute la largeur */
+    margin: 0.5rem 0; /* Ajoute un espacement vertical */
   }
 
   .btn-secondary {
@@ -60,8 +60,8 @@
   }
 
   .btn {
-    width: 100%; /* Assurez-vous que les boutons remplissent l'espace */
-    margin: 0.5rem 0; /* Ajoute une marge verticale */
+    width: 100%; /* Les boutons occupent toute la largeur */
+    margin: 0.5rem 0; /* Ajoute un espacement vertical */
   }
 
   .btn-secondary {
